@@ -1,0 +1,521 @@
+/* KÖZÖS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #D71B1B;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: darkgray;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.space {
+    height: 130px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li.nav {
+    display: inline-block;
+}
+
+li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 40px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 60px;
+    margin: 0 2px;
+}
+
+li.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+li.nav img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+nav.li a.active {
+    background-color: white;
+    color: black;
+}
+
+li {
+    display: inline;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+    li.nav a {
+        padding: 10px 6px;
+        font-size: 11px;
+    }
+
+    li.nav img {
+        height: 30px;
+    }
+}
+
+/* index.php */
+
+.subtitle {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.add-to-cart {
+    background-color: #037f51;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin: 5px auto;
+    align-items: center;
+    width: 70%;
+    font-size: large;
+}
+
+.add-to-cart:hover {
+    background-color: #026c45;
+}
+
+.add-to-calc {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    display: block;
+    margin: 5px auto;
+    width : 70%;
+    font-size: large;
+}
+
+.add-to-calc:hover {
+    background-color: #2980b9;
+}
+
+/* KÁRTYÁK */
+
+div > img {
+    height: 250px;
+    align-items: center;
+    display: block;
+    
+    margin: 0 auto;
+
+}
+
+.cards {
+    height: 650px;
+    width: 550px;
+    display: inline-grid;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #080808;
+    align-items: center;
+    margin: 25px;
+    box-shadow: 50px 50px 50px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 15px;
+}
+
+.product_name {
+    font-size: 26px;
+    font-weight: bold;
+    display: block;
+}
+
+.price {
+    font-weight: bold;
+    align-items: center;
+    display: block;
+    color: grey;
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+}
+.price-cross {
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+    align-items: center;
+    display: block;
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+    margin: 3px;
+}
+.new-price {
+    color: green;
+    font-weight: bold;
+    align-items: center;
+    display: block;
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+    margin:3px,
+}
+
+.product-details {
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+
+}
+
+.kcal {
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .cards {
+        width: 80%;
+        margin: 20px;
+    }
+}
+
+/* FELUGRATÓ GOMB */
+
+#up-button {
+    display: block;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: large;
+    padding: 5px 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.3s;
+    transform-origin: center center;
+}
+
+#up-button:hover {
+    font-size: xxx-large;
+    transition: 0.3s;
+    transform-origin: center center;
+}
+
+/* cart.php */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 50px 50px 50px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.remove-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.remove-button:hover {
+    background-color: #c0392b;
+}
+
+.total {
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+.pay-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.pay-button:hover {
+    background-color: #2980b9;
+}
+
+.tables{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width:70%;
+    height: 30%;
+    font-size: 30px;
+}
+
+.tables th{
+    width: 60%;
+    
+}
+.td_right {
+    width: 80%;
+    text-align: right;
+    font-size: 27px;
+    
+}
+.td_left {
+    width: 100px;
+    text-align: left;
+    font-size: 27px;
+    
+}
+
+#cost {
+    width: 400px;
+    text-align: right;
+
+}
+
+@media only screen and (max-width: 950px) {
+    .product img {
+        width: 100px;
+    }
+
+    .container {
+        max-width: 400px;
+    }
+}
+
+/*login.php*/
+
+.forms {
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    margin: 50px 500px;
+    border: 1px solid;
+}
+
+.forms label {
+    display: block;
+    font-weight: bold;
+    padding: 10px 5px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.forms input {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+    margin: 30px auto 0;
+    text-decoration: none;
+    
+
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+@media only screen and (max-width: 950px) {
+    .forms {
+        margin: 50px 100px;
+    }
+
+    fieldset {
+
+        display: block;
+        align-items: center;
+    }
+}
+
+/*reviews.html*/
+
+.reviews {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 40% 40%;
+    width: 90%;
+    gap: 30px;
+    margin: 40px auto;
+}
+
+.review {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 50px 50px 50px rgba(0.5, 0.5, 0.5, 0.5);
+    padding: 20px;
+    
+}
+
+.rating {
+    font-size: 24px;
+}
+
+.ratings-text {
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+
+}    
+
+
+@media only screen and (max-width: 950px) {
+    .reviews {
+        grid-template-columns: 100%;
+    }
+
+    .review {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .rating {
+        font-size: 20px;
+    }
+}
+
+/*faq.php*/
+
+.faq {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.question {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: gray;
+}
+
+.answer {
+    display: none;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    width: 80%;
+}
+
+#answer1:target,
+#answer2:target,
+#answer3:target,
+#answer4:target,
+#answer5:target,
+#answer6:target,
+#answer7:target,
+#answer8:target,
+#answer9:target,
+#answer10:target {
+    display: block;
+}
+
+li.faq {
+    display: block;
+}
+
+li.question a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+@media only screen and (max-width: 950px) {
+    .faq {
+        width: 400px;
+    }
+
+    .answer {
+        width: 100%;
+    }
+}
+
+.error_message {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#profpic{
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+{
+    "ratings": [
+        {
+            "user": "wia09",
+            "rating": "⭐⭐⭐⭐⭐",
+            "review": "Nagyon jó!"
+        },
+        {
+            "user": "wia09",
+            "rating": "⭐⭐⭐⭐⭐",
+            "review": "Nagyon finom!"
+        },
+        {
+            "user": "felhasznalo",
+            "rating": "⭐⭐⭐⭐",
+            "review": "test"
+        },
+        {
+            "user": "pistike",
+            "rating": "⭐⭐⭐",
+            "review": "Nagyon hideg volt a szendvics"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "products": [
+        {
+            "name": "Sajtburesz",
+            "price": "590",
+            "kcal": "297",
+            "description": "Marhahúspogácsa zsemlében, ömlesztett cheddar sajtszelettel, savanyú uborkával, hagymával, ketchuppal és mustárral.",
+            "image": "sajt.jpg",
+            "new_price": "490"
+        },
+        {
+            "name": "Csibeburesz",
+            "price": "590",
+            "kcal": "330",
+            "description": "Csirkecombfilé darabokból formázva, pácolva és panírozva, zsemlében, jégsalátával és McChicken® szósszal.",
+            "image": "csibe.jpg",
+            "new_price": "420"
+        },
+        {
+            "name": "Spiciburesz",
+            "price": 590,
+            "kcal": 316,
+            "description": "Sertéshúspogácsa zsemlében, jégsalátával, sült hagymával és pikáns szósszal.",
+            "image": "spicy.jpg",
+            "new_price": null
+        },
+        {
+            "name": "McCsirke",
+            "price": 1390,
+            "kcal": 422,
+            "description": "Csirkemellfilé darabokból formázva, pácolva és panírozva, szezámmagos zsemlében, jégsalátával és McChicken® szósszal.",
+            "image": "mccsibe.jpg",
+            "new_price": null
+        },
+        {
+            "name": "McDisznó",
+            "price": 1390,
+            "kcal": 586,
+            "description": "2 db sertéshúspogácsa szezámmagos zsemlében, ömlesztett cheddar sajtszelettel, hagymával, paradicsommal és Mustáros szósszal.",
+            "image": "farm.jpg",
+            "new_price": null
+        },
+        {
+            "name": "McKirály",
+            "price": 1390,
+            "kcal": 552,
+            "description": "Marhahúspogácsa szezámmagos zsemlében, 2 db ömlesztett cheddar sajtszelettel, savanyú uborkával, hagymával, ketchuppal és mustárral.",
+            "image": "royal.jpg",
+            "new_price": null
+        },
+        {
+            "name": "MaestRóka",
+            "price": 2190,
+            "kcal": 869,
+            "description": "Marhahúspogácsa, panírozott rókagombatallér, Aioli szósz, madársaláta, paradicsom, mákos zsemlében.",
+            "image": "roka.jpg",
+            "new_price": null
+        },
+        {
+            "name": "MaestRák",
+            "price": 2190,
+            "kcal": 837,
+            "description": "Marhahúspogácsa, panírozott garnélarák, érlelt ementáli sajtszelet, koktél szósz, rukkola saláta mix, mákos zsemlében.",
+            "image": "rak.jpg",
+            "new_price": null
+        },
+        {
+            "name": "Maestro Finom",
+            "price": 2190,
+            "kcal": 903,
+            "description": "Marhahúspogácsa, ömlesztett cheddar sajtszeletek, jégsaláta, paradicsom, friss hagyma, Big Tasty® szósz hamburger zsemlében.",
+            "image": "finom.jpg",
+            "new_price": null
+        },
+        {
+            "name": "6-os nuggi",
+            "price": 890,
+            "kcal": 274,
+            "description": "Csirkemellfilé darabokból formázva, pácolva és panírozva. 6 darabos kiszerelés. 1 db választható szószt tartalmaz.",
+            "image": "hatos.jpg",
+            "new_price": null
+        },
+        {
+            "name": "9-es nuggi",
+            "price": 1490,
+            "kcal": 411,
+            "description": "Csirkemellfilé darabokból formázva, pácolva és panírozva. 9 darabos kiszerelés. 2 db választható szószt tartalmaz.",
+            "image": "kilences.jpg",
+            "new_price": null
+        },
+        {
+            "name": "20-as nuggi",
+            "price": 2390,
+            "kcal": 914,
+            "description": "Csirkemellfilé darabokból formázva, pácolva és panírozva. 20 darabos kiszerelés. 4 db választható szószt tartalmaz.",
+            "image": "huszas.jpg",
+            "new_price": null
+        },
+        {
+            "name": "Sima buri",
+            "price": 490,
+            "kcal": 231,
+            "description": "Burgonyahasábok repceolajban sütve, sütés után sóval szórva. (80g)",
+            "image": "kisburi.jpg",
+            "new_price": null
+        },
+        {
+            "name": "Big buri",
+            "price": 990,
+            "kcal": 329,
+            "description": "Burgonyahasábok repceolajban sütve, sütés után sóval szórva. (114g)",
+            "image": "kozburi.jpg",
+            "new_price": null
+        },
+        {
+            "name": "Veribig buri",
+            "price": 1490,
+            "kcal": 434,
+            "description": "Burgonyahasábok repceolajban sütve, sütés után sóval szórva. (150g)",
+            "image": "nagyburi.jpg",
+            "new_price": null
+        },
+        {
+            "name": "KetchUp!",
+            "price": 180,
+            "kcal": 35,
+            "description": "Tálkás kecsap. (25ml)",
+            "image": "kecsap.jpg",
+            "new_price": null
+        },
+        {
+            "name": "KetchDown!",
+            "price": 180,
+            "kcal": 148,
+            "description": "Tálkás majonéz. (25ml)",
+            "image": "mayo.jpg",
+            "new_price": null
+        },
+        {
+            "name": "MaSemCsajozok",
+            "price": 180,
+            "kcal": 837,
+            "description": "Tálkás fokhagymás szósz. (25ml)",
+            "image": "garlic.jpg",
+            "new_price": null
+        },
+        {
+            "name": "Kóla",
+            "price": 590,
+            "kcal": 180,
+            "description": "Cola ízű szénsavas üdítőital. (0,4l)",
+            "image": "cocacolalight_cocacolazero.jpg",
+            "new_price": null
+        },
+        {
+            "name": "Diétás kóla",
+            "price": 590,
+            "kcal": 0,
+            "description": "Colaízű szénsavas üdítőital édesítőszerekkel. Fenilalanin-forrást tartalmaz.",
+            "image": "cocacolalight_cocacolazero.jpg",
+            "new_price": null
+        },
+        {
+            "name": "Gyömbér",
+            "price": 590,
+            "kcal": 195,
+            "description": "Gyömbérízű szénsavas üdítőital. (0,4l)",
+            "image": "gyomber.jpg",
+            "new_price": null
+        }
+    ]
+}

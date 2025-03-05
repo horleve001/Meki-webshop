@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "username": "asd",
+            "password": "$2y$10$eMYApGJ5Ibcdwykx2JvNDO3\/oSEr417kmwqEFLxIQZN0LeiW5e0Jq",
+            "age": "18",
+            "fullname": "asd",
+            "email": "asd@d.com",
+            "address": "Keresztúri Út 24",
+            "phone": "+36304057845",
+            "admin": true,
+            "profile-pic": "..\/uploads\/Képernyőkép 2024-04-16 152913.png"
+        },
+        {
+            "username": "felhasznalo",
+            "password": "$2y$10$70pIKc8HZes0NMbem3kK2elkTJ50fTzK8drYIiEP5McUaCdQSg7pO",
+            "age": "18",
+            "fullname": "Horváth Levente",
+            "email": "f001@gmail.com",
+            "address": "Keresztúri Út 24",
+            "phone": "+36304057845",
+            "admin": false
+        },
+        {
+            "username": "wia09",
+            "password": "$2y$10$tUlTHv1EH52u8oSFNaBSNubqtjmx5UtIPbDqbTG7N2NPgE5GjqMRG",
+            "age": "21",
+            "fullname": "Vágási Vivien",
+            "email": "vivien.vagasi@gmail.com",
+            "address": "6755 Aprajafalva, Kis u. 17",
+            "phone": "+36205076461",
+            "admin": false
+        },
+        {
+            "username": "pistike",
+            "password": "$2y$10$gbEVkOldbamdHwVfxgYcielgqavCna0VVR9JGBNj3ChCz8JFZCpaK",
+            "age": "19",
+            "fullname": "Tóth Pista",
+            "email": "pisti@gmail.com",
+            "address": "5555 Budapest VIII ker",
+            "phone": "+36304057845",
+            "admin": false
+        }
+    ]
+}

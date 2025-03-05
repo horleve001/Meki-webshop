@@ -1,0 +1,11 @@
+admin-nev:asd
+admin-jelszo:asdasd
+
+felhasznalo-nev:felhasznalo
+felhasznalo-jelszo:asdasd
+
+felhasznalo-nev:wia09
+felhasznalo-jelszo:Asdasd
+
+felhasznalo-nev:pistike
+felhasznalo-jelszo:jolesz
