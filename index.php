@@ -94,7 +94,7 @@
 <h1 id="title">Termékeink</h1>
 <h2 class="subtitle">Szendvicsek:</h2>
 
-<div>
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
     <?php
     foreach ($products["products"] as $product){?>
             
